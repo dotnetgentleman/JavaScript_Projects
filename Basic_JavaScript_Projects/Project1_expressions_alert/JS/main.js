@@ -1,7 +1,7 @@
 window.alert("Hello World!")
-document.write('Hello, world!')
+document.write('Hello, world!')         //Writing Hello world!
 
-var A = " This is a string. ";
+var A = " This is a string. ";  //Declaring a variable
 document.write(A);
 
 window.alert(A);
@@ -17,7 +17,7 @@ var C = "Did you love her?" + " No! ";
 document.write(C);
 
 var D = "Mom", E = "Dad", F = "Brother";
-var D = D.fontcolor("red"), E = E.fontcolor("red");
+var D = D.fontcolor("red"), E = E.fontcolor("red");             //Making the text red instead of black
 document.write(E);
 
 var blues = "I have the blues.";
