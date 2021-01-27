@@ -128,6 +128,7 @@ function audio(audioURL) {
 function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     //This line accesse our html canvas element. 
     const canvas = document.getElementById('win-lines');
+    const c = canvas.getContext("2d");
     //This line indicates where the start of a lines x axis is. 
     let x1 = coordX1,
         y1 = coordY1,
